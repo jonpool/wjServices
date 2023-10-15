@@ -27,7 +27,7 @@ class Footer3 extends React.Component {
                                         <NavLink to={"/"}><img src={require("./../../images/logo-dark.png").default} alt="" width={230} height={67} /></NavLink>
                                             
                                         </div>
-                                        <p>Typefaces and layouts, and in content of dummy text is nonsensical.typefaces of dummy text is appearance of different general the content of dummy text is nonsensical.typefaces of dummy text is nonsensical.
+                                        <p>Our team is made up of skilled painters who aro also specialized in furniture restoration. We only use top-of-the-line materials and inks to ensure long-lasting results and a flawless finish on every project.
                                         </p>
                                     </div>
                                 </div>
@@ -72,15 +72,15 @@ class Footer3 extends React.Component {
                                     <div className="widget widget_services inline-links">
                                         <h4 className="widget-title">Useful links</h4>
                                         <ul>
-                                            <li><NavLink to={"/aboutus"}>About</NavLink></li>
-                                            <li><NavLink to={"/post-gallery"}>Gallery</NavLink></li>
-                                            <li><NavLink to={"/news-grid"}>News</NavLink></li>
-                                            <li><NavLink to={"/work-masonary"}>Work</NavLink></li>
-                                            <li><NavLink to={"/project-detail"}>Project</NavLink></li>
-                                            <li><NavLink to={"/contactus"}>Contact us</NavLink></li>
-                                            <li><NavLink to={"/work-masonary"}>Site Map</NavLink></li>
-                                            <li><NavLink to={"/project-detail"}>Career</NavLink></li>
-                                            <li><NavLink to={"/contactus"}>Help </NavLink></li>
+                                            <li><NavLink to={"#"}>About</NavLink></li>
+                                            <li><NavLink to={"#"}>Gallery</NavLink></li>
+                                            <li><NavLink to={"#"}>News</NavLink></li>
+                                            <li><NavLink to={"#"}>Work</NavLink></li>
+                                            <li><NavLink to={"#"}>Project</NavLink></li>
+                                            <li><NavLink to={"#"}>Contact us</NavLink></li>
+                                            <li><NavLink to={"#"}>Site Map</NavLink></li>
+                                            <li><NavLink to={"#"}>Career</NavLink></li>
+                                            <li><NavLink to={"#"}>Help </NavLink></li>
                                         </ul>
                                     </div>
                                 </div>

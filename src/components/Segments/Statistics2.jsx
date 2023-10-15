@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import CountUp from 'react-countup';
 
 var bgimg = require('./../../images/background/bg-11.jpg');

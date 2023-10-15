@@ -5,11 +5,9 @@ import Slider3 from './../Segments/Slider3';
 import About from './../Segments/About';
 import LatestProjects from './../Segments/LatestProjects';
 import WhoWeAre from './../Segments/WhoWeAre';
-import TeamMembers from './../Segments/TeamMembers';
-import Blog from './../Segments/Blog';
 import Statistics from './../Segments/Statistics';
 import Testimonials from './../Segments/Testimonials';
-import ClientsLogo from './../Segments/ClientsLogo';
+import ClientsLogo from './../Segments/ClientsLogo2';
 
 class Home3 extends React.Component {
     render() {
