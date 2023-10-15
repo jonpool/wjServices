@@ -54,9 +54,9 @@ class Slider3 extends React.Component {
                             id="slide-964-layer-1" 
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                             data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']" 
-                            data-fontsize="['90','90','90','60']"
+                            data-fontsize="['80','80','80','50']"
                             data-lineheight="['120','120','120','60']"
-                            data-letterspacing="['20','20','20','5']"
+                            data-letterspacing="['10','10','10','5']"
                             data-width="['960','960','960','960']"
                             
                             
@@ -135,9 +135,9 @@ class Slider3 extends React.Component {
                         id="slide-964-layer-4" 
                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']" 
-                        data-fontsize="['90','90','90','60']"
+                        data-fontsize="['80','80','80','50']"
                         data-lineheight="['120','120','120','60']"
-                        data-letterspacing="['20','20','20','5']"
+                        data-letterspacing="['10','10','10','5']"
                         data-width="['960','960','960','960']"
                         data-height="none"
                         data-whitespace="nowrap"
@@ -156,7 +156,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[50,50,50,50]"
                        
                     
-                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services=</div>
+                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services</div>
                     
             
                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
