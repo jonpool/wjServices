@@ -26,7 +26,7 @@ class Home3 extends React.Component {
                         <div className="container">
                             {/* TITLE START */}
                             <div className="section-head text-left text-black">
-                                <h2 className="text-uppercase font-36">Where to Find us </h2>
+                                <h2 className="text-uppercase font-36">Contact Us </h2>
                                 <div className="wt-separator-outer">
                                     <div className="wt-separator bg-black" />
                                 </div>
@@ -55,21 +55,21 @@ class Home3 extends React.Component {
                                                     <div className="icon-sm"><i className="iconmoon-smartphone-1" /></div>
                                                     <div className="icon-content text-white ">
                                                         <h5 className="m-t0 text-uppercase">Phone number</h5>
-                                                        <p>(456) 789 10 12</p>
+                                                        <p>(781) 539 9700</p>
                                                     </div>
                                                 </div>
                                                 <div className="wt-icon-box-wraper left p-b30">
                                                     <div className="icon-sm"><i className="iconmoon-email" /></div>
                                                     <div className="icon-content text-white">
                                                         <h5 className="m-t0  text-uppercase">Email address</h5>
-                                                        <p>Moderninfo@gmail.com</p>
+                                                        <p>info@wjpaintingnow.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="wt-icon-box-wraper left">
                                                     <div className="icon-sm"><i className="iconmoon-travel" /></div>
                                                     <div className="icon-content text-white">
                                                         <h5 className="m-t0  text-uppercase">Address info</h5>
-                                                        <p>1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                                        <p> Massachusetts, USA</p>
                                                         
                                                     </div>
                                                 </div>

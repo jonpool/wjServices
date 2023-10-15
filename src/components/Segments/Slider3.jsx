@@ -156,7 +156,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[50,50,50,50]"
                        
                     
-                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services</div>
+                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services=</div>
                     
             
                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
