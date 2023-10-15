@@ -39,10 +39,15 @@ class Slider3 extends React.Component {
                         <div id="rev_slider_346_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.3.3">
                             <ul>
                                 {/* SLIDE 1 */}
-                                <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter={`{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"${slideimg1.default}",
+                                <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" 
+                                data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" 
+                                data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,
+                                    &quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter={`{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType"
+                                    :"image","bgImage":"${slideimg1.default}",
                                 "bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}`}>
                                     {/* MAIN IMAGE */}
-                                    <img src={require('./../../images/main-slider/slider3/slide1-b.jpg').default} data-beforeafter="after" data-bgcolor="" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
+                                    <img src={require('./../../images/main-slider/slider3/slide1-b.jpg').default} data-beforeafter="after" data-bgcolor="" alt="" data-bgposition="center center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" className="rev-slidebg" data-no-retina />
                                     {/* LAYERS */}
                                     {/* LAYER NR. 1 text */}
                                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
@@ -70,7 +75,7 @@ class Slider3 extends React.Component {
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[50,50,50,50]"
                         
-                            style={{ zIndex: 16,fontWeight: 700, color: '#fb0c1d',  fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Service
+                            style={{ zIndex: 16,fontWeight: 700, color: '#fb0c1d',  fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services
                     </div>
                  
                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
@@ -151,7 +156,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[50,50,50,50]"
                        
                     
-                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Service</div>
+                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services</div>
                     
             
                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
