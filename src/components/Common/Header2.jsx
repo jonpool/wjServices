@@ -26,14 +26,14 @@ class Header2 extends React.Component {
 
             const stickyheader = document.querySelector('.sticky-header ');
 
-            if (offset >= 100) {
+           /* if (offset >= 100) {
                 stickyheader.classList.add('is-fixed');
                 stickyheader.classList.add('color-fill');
 
             } else {
                 stickyheader.classList.remove('is-fixed');
                 stickyheader.classList.remove('color-fill');
-            }
+            }*/
         }
 
         window.addEventListener('scroll', handleScroll);

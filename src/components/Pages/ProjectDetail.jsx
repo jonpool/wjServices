@@ -1,5 +1,5 @@
 import React from 'react';
-import Header2 from '../Common/Header2';
+import Header2 from '../Common/Header';
 import Footer from '../Common/Footer';
 import Banner from './../Segments/Banner';
 
@@ -9,7 +9,7 @@ var bgimg = require('./../../images/banner/5.jpg');
 class ProjectDetail extends React.Component {
     render() {
         return (
-            <>
+            <><div>
                 <Header2 />
                 <div className="page-content">
                     <Banner title="Creating places that enhance the human experience." pagename="Project detail" bgimage={bnrimg.default}/>
@@ -46,17 +46,17 @@ class ProjectDetail extends React.Component {
                                                 </div>
                                                 <div className="p-t0">
                                                     <ul className="social-icons social-square social-darkest m-b0">
-                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
+                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" rel="noreferrer" /></li>
                                                         <li><a target="_blank"
-                                                         href="https://twitter.com" className="fa fa-twitter" /></li>
+                                                         href="https://twitter.com" className="fa fa-twitter" rel="noreferrer" /></li>
                                                         <li><a target="_blank"
-                                                         href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
+                                                         href="https://in.linkedin.com" className="fa fa-linkedin" rel="noreferrer" /></li>
                                                         <li><a target="_blank"
-                                                         href="https://rss.com" className="fa fa-rss" /></li>
+                                                         href="https://rss.com" className="fa fa-rss" rel="noreferrer" /></li>
                                                         <li><a target="_blank"
-                                                         href="https://www.youtube.com/" className="fa fa-youtube" /></li>
+                                                         href="https://www.youtube.com/" className="fa fa-youtube" rel="noreferrer" /></li>
                                                         <li><a target="_blank"
-                                                         href="https://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                         href="https://www.instagram.com/" className="fa fa-instagram" rel="noreferrer" /></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -70,6 +70,7 @@ class ProjectDetail extends React.Component {
                 </div>
 
                 <Footer />
+                </div>
             </>
         );
     };

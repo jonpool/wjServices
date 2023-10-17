@@ -34,6 +34,7 @@ class Slider3 extends React.Component {
 
         return (
             <>
+            <div>
                 <div id="rev_slider_346_1_wrapper" className="rev_slider_wrapper fullscreen-container" data-alias="beforeafterslider1" data-source="gallery" style={{ background: '#252525', padding: 0 }}>
                         {/* START REVOLUTION SLIDER 5.4.3.3 fullscreen mode */}
                         <div id="rev_slider_346_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.3.3">
@@ -372,7 +373,8 @@ class Slider3 extends React.Component {
                             <div className="tp-bannertimer tp-bottom" style={{ visibility: 'hidden !important' }} />
                         </div>
                     </div>
-            </>
+                    </div>
+                    </>
         );
     }
 };

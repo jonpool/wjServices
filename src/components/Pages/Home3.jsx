@@ -1,5 +1,5 @@
 import React from 'react';
-import Header2 from '../Common/Header2';
+import Header2 from '../Common/Header';
 import Footer from '../Common/Footer3';
 import Slider3 from './../Segments/Slider3';
 import About from './../Segments/About';
@@ -12,7 +12,7 @@ import ClientsLogo from './../Segments/ClientsLogo2';
 class Home3 extends React.Component {
     render() {
         return (
-            <>
+            <div>
                 <Header2 />
                 <Slider3 />
                 <About />
@@ -87,7 +87,7 @@ class Home3 extends React.Component {
                 <Testimonials />
                 <ClientsLogo />
                 <Footer />
-            </>
+            </div>
         );
     };
 };

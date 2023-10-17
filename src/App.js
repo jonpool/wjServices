@@ -7,9 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <Components />  
-      <ScrolToTop/>
-      
-    </div>
+   </div>
   );
 }
 

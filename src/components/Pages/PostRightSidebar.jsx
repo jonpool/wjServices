@@ -23,7 +23,7 @@ class PostRightSidebar extends React.Component {
                                 <div className="col-md-8">
                                     <div className="blog-post blog-lg date-style-1 text-black">
                                         <div className="wt-post-media">
-                                            <iframe src="https://player.vimeo.com/video/34741214?color=ffffff&title=0&byline=0&portrait=0" width={1000} height={563} />
+                                            <iframe title="myFrame" src="https://player.vimeo.com/video/34741214?color=ffffff&title=0&byline=0&portrait=0" width={1000} height={563} />
                                         </div>
                                         <div className="wt-post-info p-t30 bg-white">
                                             <div className="wt-post-title ">
@@ -59,12 +59,12 @@ class PostRightSidebar extends React.Component {
                                             <h4 className="tagcloud text-uppercase">Share this Post:</h4>
                                             <div className="widget_social_inks">
                                                 <ul className="social-icons social-md social-square social-dark m-b0">
-                                                    <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                    <li><a target="_blank" href="https://twitter.com" className="fa fa-twitter" /></li>
-                                                    <li><a target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                    <li><a target="_blank" href="https://rss.com" className="fa fa-rss" /></li>
-                                                    <li><a target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" /></li>
-                                                    <li><a target="_blank" href="https://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                    <li><a  href="https://www.facebook.com" className="fa fa-facebook"> </a></li>
+                                                    <li><a  href="https://twitter.com" className="fa fa-twitter" > </a></li>
+                                                    <li><a  href="https://in.linkedin.com" className="fa fa-linkedin" > </a></li>
+                                                    <li><a  href="https://rss.com" className="fa fa-rss" > </a></li>
+                                                    <li><a  href="https://www.youtube.com/" className="fa fa-youtube" > </a></li>
+                                                    <li><a  href="https://www.instagram.com/" className="fa fa-instagram" > </a></li>
                                                 </ul>
                                             </div>
                                         </div>

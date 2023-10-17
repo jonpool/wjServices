@@ -21,23 +21,6 @@ class Header extends React.Component {
 
     componentDidMount() {
 
-        const handleScroll = () => {
-            const offset = window.scrollY;
-
-            const stickyheader = document.querySelector('.sticky-header ');
-
-            if (offset >= 100) {
-                stickyheader.classList.add('is-fixed');
-                stickyheader.classList.add('color-fill');
-
-            } else {
-                stickyheader.classList.remove('is-fixed');
-                stickyheader.classList.remove('color-fill');
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll);
-
         function loadScript(src) {
 
             return new Promise(function (resolve, reject) {
@@ -64,6 +47,7 @@ class Header extends React.Component {
 
         return (
             <>
+            <div>
                 <header className="site-header header-style-1  nav-wide mobile-responsive-navigation">
                     <div className="sticky-header main-bar-wraper">
                         <div className="main-bar bg-white p-t10">
@@ -94,12 +78,12 @@ class Header extends React.Component {
                                     <div className="extra-cell">
                                         <div className="wt-topbar-right clearfix top-bar">
                                             <ul className="social-bx list-inline pull-right">
-                                                <li><a rel="noreferrer" target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://twitter.com" className="fa fa-twitter" /></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://rss.com" className="fa fa-rss" /></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" /></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                <li><a href="facebook.com"> </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://twitter.com" className="fa fa-twitter"> </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" > </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://rss.com" className="fa fa-rss"> </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" > </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/" className="fa fa-instagram" > </a></li>
                                             </ul>
                                             <ul className="list-unstyled list-inline e-p-bx pull-right">
                                                 <li><i className="fa fa-envelope" />Info@gmail.com</li>
@@ -112,16 +96,17 @@ class Header extends React.Component {
                                 <div className="extra-nav">
                                     <div className="extra-cell">
                                         <div className="dropdown share-icon-btn2">
-                                            <a href="#" className="site-search-btn dropdown-toggle" data-toggle="dropdown"><i className="fa fa-share-alt" /></a>
+                                            <a href="/" className="site-search-btn dropdown-toggle" 
+                                            data-toggle="dropdown"> </a>
                                             <div className="dropdown-menu bg-white">
                                                 <div className="top-bar">
                                                     <ul className="social-bx list-inline">
-                                                        <li><a href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                        <li><a href="https://twitter.com" className="fa fa-twitter" /></li>
-                                                        <li><a href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                        <li><a href="https://rss.com" className="fa fa-rss" /></li>
-                                                        <li><a href="https://www.youtube.com/" className="fa fa-youtube" /></li>
-                                                        <li><a href="https://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                        <li><a href="https://www.facebook.com" className="fa fa-facebook" > </a></li>
+                                                        <li><a href="https://twitter.com" className="fa fa-twitter" > </a></li>
+                                                        <li><a href="https://in.linkedin.com" className="fa fa-linkedin" > </a></li>
+                                                        <li><a href="https://rss.com" className="fa fa-rss" > </a></li>
+                                                        <li><a href="https://www.youtube.com/" className="fa fa-youtube" > </a></li>
+                                                        <li><a href="https://www.instagram.com/" className="fa fa-instagram" > </a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -157,7 +142,7 @@ class Header extends React.Component {
                         </div>
                     </div>
                 </header>
-
+                </div>
             </>
         );
     };
