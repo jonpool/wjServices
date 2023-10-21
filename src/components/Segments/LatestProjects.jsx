@@ -42,13 +42,13 @@ const projects = [
         filter: 'interior-col'
     },
     {
-        image: require('./../../images/gallery/portrait/pic6.jpg'),
+        image: require('./../../images/gallery/portrait/pic7.jpg'),
         title: 'Modern Minimalism',
         description: 'Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
         filter: 'exterior-col'
     },
     {
-        image: require('./../../images/gallery/portrait/pic7.jpg'),
+        image: require('./../../images/gallery/portrait/pic6.jpg'),
         title: 'Urban Chic',
         description: 'Ideal for a project that brings a touch of city style and sophistication to your house with trendy and chic color choices.',
         filter: 'interior-col'
@@ -152,7 +152,7 @@ class LatestProjects extends React.Component {
                                                             <div className="text-white  font-weight-300 p-a40">
                                                                 <h2><NavLink to={"/project-detail"} className="text-white font-20 letter-spacing-1 text-uppercase">{item.title}</NavLink></h2>
                                                                 <p>{item.description}</p>
-                                                                <NavLink to={"/project-detail"} className="v-button letter-spacing-4 font-12 text-uppercase p-l20">Read More</NavLink>
+                                                                <NavLink to={"#"} className="v-button letter-spacing-4 font-12 text-uppercase p-l20">Read More</NavLink>
                                                             </div>
                                                         </div>
                                                     </div>
