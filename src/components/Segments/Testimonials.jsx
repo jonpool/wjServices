@@ -12,33 +12,33 @@ const members = [
     },
     {
         image: require('./../../images/testimonials/pic4.jpg'),
-        fullname: 'Robert willson',
+        fullname: 'Robert Willian',
         position: 'A Work of Art!',
         description: 'The team at [Company Name] turned my house into a work of art. Their paintwork is so precise and beautiful. Im thrilled with the results, both inside and outside. Thank you for making my dream home a reality!',
     },
     {
         image: require('./../../images/testimonials/pic2.jpg'),
-        fullname: 'Taylor Roberts',
+        fullname: 'James Smith',
         position: '"Professionalism Beyond Expectations"',
-        description: 'Im blown away by the professionalism of [Company Name]. From the initial consultation to the final brushstroke, they exceeded all my expectations. The house looks stunning, and I couldnt be happier.',
+        description: 'Im blown away by the professionalism of [Company Name]. From the initial consultation to the final brushstroke, they exceeded all my expectations. The house looks stunning, and I could`nt be happier.',
     },
     {
         image: require('./../../images/testimonials/pic3.jpg'),
-        fullname: 'Robert willson',
+        fullname: 'Davis Johnson',
         position: '"Total Transformation!"',
-        description: 'My house has undergone a total transformation, thanks to the amazing team at [Company Name]. They completely understood my vision and brought it to life. The colors, the finishes, everything is perfect.',
+        description: 'My house has undergone a total transformation, thanks to the amazing team at WJ Services. They completely understood my vision and brought it to life. The colors, the finishes, everything is perfect.',
     },
     {
         image: require('./../../images/testimonials/pic1.jpg'),
-        fullname: 'Taylor Roberts',
+        fullname: 'Marta Miller',
         position: '"Attention to Detail Like No Other"',
-        description: 'The level of attention to detail that [Company Name] provided is truly remarkable. From preparing the surfaces to the final touch-ups, they left no stone unturned. My house looks flawless!',
+        description: 'The level of attention to detail that WJ Services provided is truly remarkable. From preparing the surfaces to the final touch-ups, they left no stone unturned. My house looks flawless!',
     },
     {
         image: require('./../../images/testimonials/pic4.jpg'),
-        fullname: 'Robert willson',
-        position: 'Co-manager associated',
-        description: 'typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces of dummy text is nonsensical.',
+        fullname: 'John Williams',
+        position: 'Complete Satisfaction',
+        description: 'I am 100% satisfied with the results of my house painting project with WJ Services. It was a hassle-free experience, and the outcome is stunning. I highly recommend their services to anyone looking for top-notch painting.',
     }
 ]
 

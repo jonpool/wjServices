@@ -46,17 +46,18 @@ class ProjectDetail extends React.Component {
                                                 </div>
                                                 <div className="p-t0">
                                                     <ul className="social-icons social-square social-darkest m-b0">
-                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" rel="noreferrer" /></li>
+                                                        <li><a target="_blank" 
+                                                        href="https://www.facebook.com" className="fa fa-facebook" rel="noreferrer"> </a></li>
                                                         <li><a target="_blank"
-                                                         href="https://twitter.com" className="fa fa-twitter" rel="noreferrer" /></li>
+                                                         href="https://twitter.com" className="fa fa-twitter" rel="noreferrer" > </a></li>
                                                         <li><a target="_blank"
-                                                         href="https://in.linkedin.com" className="fa fa-linkedin" rel="noreferrer" /></li>
+                                                         href="https://in.linkedin.com" className="fa fa-linkedin" rel="noreferrer" > </a></li>
                                                         <li><a target="_blank"
-                                                         href="https://rss.com" className="fa fa-rss" rel="noreferrer" /></li>
+                                                         href="https://rss.com" className="fa fa-rss" rel="noreferrer" > </a></li>
                                                         <li><a target="_blank"
-                                                         href="https://www.youtube.com/" className="fa fa-youtube" rel="noreferrer" /></li>
+                                                         href="https://www.youtube.com/" className="fa fa-youtube" rel="noreferrer" > </a></li>
                                                         <li><a target="_blank"
-                                                         href="https://www.instagram.com/" className="fa fa-instagram" rel="noreferrer" /></li>
+                                                         href="https://www.instagram.com/" className="fa fa-instagram" rel="noreferrer" > </a></li>
                                                     </ul>
                                                 </div>
                                             </div>

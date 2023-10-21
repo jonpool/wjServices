@@ -97,7 +97,7 @@ class Services extends React.Component {
                                 <div className="col-md-4 col-sm-12 m-b30">
                                     <div className="circle-content-pic tab-content ">
                                         {images.map((item, index) => (
-                                            <div className={index == 0 ? `tab-pane active` : `tab-pane`} id={`tab${index}`} key={index}>
+                                            <div className={index === 0 ? `tab-pane active` : `tab-pane`} id={`tab${index}`} key={index}>
                                                 <div className="wt-box">
                                                     <div className="wt-media text-primary m-b20 ">
                                                         <img src={item.default} alt="" />

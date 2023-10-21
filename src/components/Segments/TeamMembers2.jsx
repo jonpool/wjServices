@@ -1,6 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -58,12 +56,12 @@ class TeamMembers2 extends React.Component {
                                                     <h2 className="wt-team-title text-uppercase"><span className="text-black font-32 font-weight-500">Robert willson</span></h2>
                                                     <p className="font-22">Co-manager associated</p>
                                                     <ul className="social-icons social-md social-square social-dark">
-                                                        <li><a target="_blank" target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                        <li><a target="_blank" target="_blank" href="https://twitter.com" className="fa fa-twitter" /></li>
-                                                        <li><a target="_blank" target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                        <li><a target="_blank" target="_blank" href="https://rss.com" className="fa fa-rss" /></li>
-                                                        <li><a target="_blank" target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" /></li>
-                                                        <li><a target="_blank" target="_blank" href="https://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" rel="noreferrer" > </a></li>
+                                                        <li><a target="_blank"  href="https://twitter.com" className="fa fa-twitter" rel="noreferrer" > </a></li>
+                                                        <li><a target="_blank"  href="https://in.linkedin.com" className="fa fa-linkedin" rel="noreferrer" > </a></li>
+                                                        <li><a target="_blank"  href="https://rss.com" className="fa fa-rss" rel="noreferrer" > </a></li>
+                                                        <li><a target="_blank"  href="https://www.youtube.com/" className="fa fa-youtube" rel="noreferrer" > </a></li>
+                                                        <li><a target="_blank"  href="https://www.instagram.com/" className="fa fa-instagram" rel="noreferrer" > </a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -80,11 +78,11 @@ class TeamMembers2 extends React.Component {
                                                             <div className="overlay-bx">
                                                                 <div className="overlay-icon">
                                                                     <ul className="social-icons social-square social-dark">
-                                                                        <li><a target="_blank" target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                                        <li><a target="_blank" target="_blank" href="https://www.twitter.com" className="fa fa-twitter" /></li>
-                                                                        <li><a target="_blank" target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                                        <li><a target="_blank" target="_blank" href="https://www.youtube.com" className="fa fa-youtube" /></li>
-                                                                        <li><a target="_blank" target="_blank" href="https://www.instagram.com" className="fa fa-instagram" /></li>
+                                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" rel="noreferrer" > </a></li>
+                                                                        <li><a  target="_blank" href="https://www.twitter.com" className="fa fa-twitter" rel="noreferrer" > </a></li>
+                                                                        <li><a  target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" rel="noreferrer" > </a></li>
+                                                                        <li><a  target="_blank" href="https://www.youtube.com" className="fa fa-youtube" rel="noreferrer" > </a></li>
+                                                                        <li><a  target="_blank" href="https://www.instagram.com" className="fa fa-instagram" rel="noreferrer" > </a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
