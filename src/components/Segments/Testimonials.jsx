@@ -82,11 +82,6 @@ class Testimonials extends React.Component {
                                     {members.map((item, index) => (
                                         <div className="item" key={index}>
                                             <div className="testimonial-6">
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src={item.image.default} alt="" width={132} height={132} />
-                                                    </div>
-                                                </div>
                                                 <div className="testimonial-text clearfix bg-white">
                                                     <div className="testimonial-detail clearfix">
                                                         <strong className="testimonial-name">{item.fullname}</strong>
