@@ -127,7 +127,7 @@ class Slider3 extends React.Component {
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[45,45,45,45]"
                     
-                        style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, lineHeight: 60, fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: '#e4e4e0', cursor: 'pointer' }}>
+                        style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, lineHeight: 60, fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: '#9a9898', cursor: 'pointer' }}>
                             
                             <NavLink to={"/aboutus"} title="MAKE A CHOICE" rel="bookmark" style={{color: '#000'}}>MAKE A CHOICE</NavLink>
                         </div>
@@ -157,7 +157,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[50,50,50,50]"
                        
                     
-                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#e4e4e0', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services</div>
+                        style={{ zIndex: 16, whiteSpace: 'nowrap', fontSize: 120, lineHeight: 120, fontWeight: 700, color: '#9a9898', letterSpacing: 50, fontFamily: 'Montserrat', textTransform: 'uppercase' }}>WJ-Services</div>
                     
             
                     <div className="tp-caption   tp-resizeme rs-parallaxlevel-5" 
