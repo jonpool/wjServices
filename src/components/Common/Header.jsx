@@ -79,15 +79,14 @@ class Header extends React.Component {
                                         <div className="wt-topbar-right clearfix top-bar">
                                             <ul className="social-bx list-inline pull-right">
                                                 <li><a href="facebook.com"> </a></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://twitter.com" className="fa fa-twitter"> </a></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" > </a></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://rss.com" className="fa fa-rss"> </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://wa.me/17815399700" className="fa fa-whatsapp"> </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://www.facebook.com/wjpaintingnow" className="fa fa-facebook"> </a></li>
                                                 <li><a rel="noreferrer" target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" > </a></li>
-                                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/" className="fa fa-instagram" > </a></li>
+                                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/wjpaintingnow" className="fa fa-instagram" > </a></li>
                                             </ul>
                                             <ul className="list-unstyled list-inline e-p-bx pull-right">
-                                                <li><i className="fa fa-envelope" />Info@gmail.com</li>
-                                                <li><i className="fa fa-phone" />(654) 123-4567</li>
+                                                <li><i className="fa fa-envelope" ></i><a href="mailto:INFO@WJPAINTINGNOW.COM" >INFO@WJPAINTINGNOW.COM</a></li>
+                                                <li><i className="fa fa-phone"></i><a href="tel:123-456-7890">(781) 539-9700</a> </li>
                                             </ul>
                                         </div>
                                     </div>

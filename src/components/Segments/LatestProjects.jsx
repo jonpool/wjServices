@@ -13,50 +13,50 @@ const filters = [
 const projects = [
     {
         image: require('./../../images/gallery/portrait/pic1.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Coastal Retreat',
+        description: 'For a project that adds bright and lively colors to transform your home into a welcoming paradise.',
         filter: 'building-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic2.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Interior Painting',
+        description: 'Perfect for a sophisticated and timeless paint job that emphasizes neutral and classic tones.',
         filter: 'building-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic3.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Elegant Neutrals',
+        description: ' Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
         filter: 'building-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic4.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: '"Rustic Charm"',
+        description: 'For a project that breathes new life into your home by reviving vintage colors and design elements.',
         filter: 'building-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic5.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Colorful Personality',
+        description: ' If your project is all about expressing your unique personality with a vibrant mix of colors, this label works well.',
         filter: 'interior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic6.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Modern Minimalism',
+        description: 'Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
         filter: 'restaurant-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic7.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Urban Chic',
+        description: 'Ideal for a project that brings a touch of city style and sophistication to your house with trendy and chic color choices.',
         filter: 'restaurant-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic4.jpg'),
-        title: 'Triangle Concrete House on lake',
-        description: 'Morbi mattis ex non urna condi mentum, eget eleifend diam molestie. Curabitur lorem enim, maximus non null.',
+        title: 'Serenity Haven',
+        description: 'For a peaceful and calming house painting project that promotes a sense of tranquility and relaxation.',
         filter: 'interior-col'
     }
 ]

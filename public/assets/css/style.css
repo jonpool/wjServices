@@ -1249,9 +1249,9 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 /*-------------------------------------
 	1. text
 -------------------------------------*/
-.text-white{color:#fff;}
+.text-white{color:#000;}
 .text-primary{color:#000;}
-.text-secondry{color:#efefef;}
+.text-secondry{color:#000;}
 .text-black{color:#000;}
 .text-gray{color:#f5f6f6;}
 .text-gray-dark{color:#d3d3d3;}
@@ -1964,10 +1964,10 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 .site-button-link {	display:inline-block;	font-weight:600;}
 
 /* 1.33 text link white */
-.site-button-link.white {color:#e7e7e7;}
+.site-button-link.white {color:#0b0b0b;}
 .site-button-link.white:hover,
 .site-button-link.white:active,
-.site-button-link.white:focus {color:#CCC;}
+.site-button-link.white:focus {color:#0a0a0a;}
 
 /* 1.34 text link black */
 .site-button-link.black {	color:#171717;}
@@ -3413,7 +3413,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {	padding:0 15px !im
 	padding-right: 10px;
 }
 .e-p-bx li a {
-	color: #FFF;
+	color: #000;
 }
 .e-p-bx li i {
 	margin-right:5px;

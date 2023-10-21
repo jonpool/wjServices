@@ -12,7 +12,7 @@ class ProjectDetail extends React.Component {
             <><div>
                 <Header2 />
                 <div className="page-content">
-                    <Banner title="Creating places that enhance the human experience." pagename="Project detail" bgimage={bnrimg.default}/>
+                    <Banner title="painting places that enhance the customer experience." pagename="Project detail" bgimage={bnrimg.default}/>
                     {/* SECTION CONTENT START */}
                     <div className="section-full p-tb90 tm-work-detail-wrap">
                         <div className="container">
@@ -28,11 +28,11 @@ class ProjectDetail extends React.Component {
                                                     <div className="row">
                                                         <div className="col-md-6 col-sm-6 m-b30">
                                                             <h5 className="text-uppercase">Date</h5>
-                                                            <p>January 04, 2022</p>
+                                                            <p>January 04, 2023</p>
                                                         </div>
                                                         <div className="col-md-6 col-sm-6 m-b30">
                                                             <h5 className="text-uppercase">Client</h5>
-                                                            <p>Branding NthPsd Company</p>
+                                                            <p>Brendan F.</p>
                                                         </div>
                                                         <div className="col-md-6 col-sm-6 m-b30">
                                                             <h5 className="text-uppercase">Project type</h5>

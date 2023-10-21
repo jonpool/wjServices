@@ -20,9 +20,9 @@ class Statistics extends React.Component {
                                             <h2 className="font-50  text-uppercase">
                                                 Intresting Facts
                                             </h2>
-                                            <p className="font-18 font-weight-300">Morbi mattis ex non urna condimentum, eget eleif
-                                                end diam molestie. Curabitur lorem enim, maximus
-                                                non nulla sed, egestas venenatis felis.
+                                            <p className="font-18 font-weight-300"> WJServices has received multiple awards and accolades for 
+                                            its exceptional and innovative paint designs. This recognition showcases the high level of expertise 
+                                            and creativity within our team.
                                             </p>
                                         </div>
                                     </div>
@@ -34,25 +34,25 @@ class Statistics extends React.Component {
                                                 <div className="icon-content text-center">
                                                     <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={451} duration={5} /></span></div>
                                                     <div className="wt-separator-outer m-b20"><div className="wt-separator bg-white" /></div>
-                                                    <span className="text-uppercase">Happy Clients</span>
+                                                    <span className="text-uppercase">Total Projects</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-sm-4 col-xs-4">
                                             <div className="wt-icon-box-wraper p-a10 text-white m-b30">
                                                 <div className="icon-content text-center">
-                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={532} duration={5} /></span></div>
-                                                    <div className="wt-separator-outer m-b20"><div className="wt-separator bg-white" /></div>
-                                                    <span className="text-uppercase">Finished projects</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-sm-4 col-xs-4">
-                                            <div className="wt-icon-box-wraper p-a10 text-white m-b30">
-                                                <div className="icon-content text-center">
-                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={299} duration={5} /></span></div>
+                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={1253} duration={5} /></span></div>
                                                     <div className="wt-separator-outer m-b20"><div className="wt-separator bg-white" /></div>
                                                     <span className="text-uppercase">Working Days</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-4 col-sm-4 col-xs-4">
+                                            <div className="wt-icon-box-wraper p-a10 text-white m-b30">
+                                                <div className="icon-content text-center">
+                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={26} duration={5} /></span></div>
+                                                    <div className="wt-separator-outer m-b20"><div className="wt-separator bg-white" /></div>
+                                                    <span className="text-uppercase">Cities Served</span>
                                                 </div>
                                             </div>
                                         </div>
