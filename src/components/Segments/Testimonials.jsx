@@ -14,13 +14,13 @@ const members = [
         image: require('./../../images/testimonials/pic4.jpg'),
         fullname: 'Robert Willian',
         position: 'A Work of Art!',
-        description: 'The team at [Company Name] turned my house into a work of art. Their paintwork is so precise and beautiful. Im thrilled with the results, both inside and outside. Thank you for making my dream home a reality!',
+        description: 'The team at WJ Service turned my house into a work of art. Their paintwork is so precise and beautiful. Im thrilled with the results, both inside and outside. Thank you for making my dream home a reality!',
     },
     {
         image: require('./../../images/testimonials/pic2.jpg'),
         fullname: 'James Smith',
         position: '"Professionalism Beyond Expectations"',
-        description: 'Im blown away by the professionalism of [Company Name]. From the initial consultation to the final brushstroke, they exceeded all my expectations. The house looks stunning, and I could`nt be happier.',
+        description: 'Im blown away by the professionalism of WJ Service. From the initial consultation to the final brushstroke, they exceeded all my expectations. The house looks stunning, and I could`nt be happier.',
     },
     {
         image: require('./../../images/testimonials/pic3.jpg'),

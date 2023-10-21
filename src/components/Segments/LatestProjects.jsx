@@ -5,9 +5,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const filters = [
-    { label: "Building", filter: ".building-col" },
+    { label: "Exterior", filter: ".exterior-col" },
     { label: "Interior", filter: ".interior-col" },
-    { label: "Restaurant", filter: ".restaurant-col" }
+    { label: "Commercial", filter: ".commercial-col" }
 ];
 
 const projects = [
@@ -15,25 +15,25 @@ const projects = [
         image: require('./../../images/gallery/portrait/pic1.jpg'),
         title: 'Coastal Retreat',
         description: 'For a project that adds bright and lively colors to transform your home into a welcoming paradise.',
-        filter: 'building-col'
+        filter: 'exterior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic2.jpg'),
         title: 'Interior Painting',
         description: 'Perfect for a sophisticated and timeless paint job that emphasizes neutral and classic tones.',
-        filter: 'building-col'
+        filter: 'commercial-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic3.jpg'),
         title: 'Elegant Neutrals',
         description: ' Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
-        filter: 'building-col'
+        filter: 'interior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic4.jpg'),
         title: '"Rustic Charm"',
         description: 'For a project that breathes new life into your home by reviving vintage colors and design elements.',
-        filter: 'building-col'
+        filter: 'exterior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic5.jpg'),
@@ -45,16 +45,16 @@ const projects = [
         image: require('./../../images/gallery/portrait/pic6.jpg'),
         title: 'Modern Minimalism',
         description: 'Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
-        filter: 'restaurant-col'
+        filter: 'exterior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic7.jpg'),
         title: 'Urban Chic',
         description: 'Ideal for a project that brings a touch of city style and sophistication to your house with trendy and chic color choices.',
-        filter: 'restaurant-col'
+        filter: 'interior-col'
     },
     {
-        image: require('./../../images/gallery/portrait/pic4.jpg'),
+        image: require('./../../images/gallery/portrait/pic8.jpg'),
         title: 'Serenity Haven',
         description: 'For a peaceful and calming house painting project that promotes a sense of tranquility and relaxation.',
         filter: 'interior-col'
