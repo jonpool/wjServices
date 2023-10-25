@@ -60,9 +60,9 @@ class WhoWeAre extends React.Component {
                                         <div className="wt-left-part">
                                             <div className="text-uppercase text-black">
                                                 <span className="font-30 font-weight-300">Wo we are </span>
-                                                <h2 className="font-40">
-                                                WJ Services is a notable example of reliability in the furniture painting and renovation sector.
-                                                </h2>
+                                                <h1 className="font-50">
+                                                WJ Services is fully insured! 
+                                                </h1>
                                                 <p> With years of experience and a consistent track record of successful projects, WJ Services has earned a solid reputation as a trusted company for those looking to transform their furniture into true works of art.
                                                 </p>
                                             </div>
