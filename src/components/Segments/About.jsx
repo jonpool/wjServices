@@ -48,7 +48,7 @@ class About extends React.Component {
                                 <div className="col-md-5 col-sm-12 text-uppercase text-black">
                                     <span className="font-30 font-weight-300">Welcome</span>
                                     <h2 className="font-40">
-                                        We are <span className={this.props.colorclass1}>the best painting </span> <span className={this.props.colorclass2}>company</span>  in Massachusetts
+                                    We are among <span className={this.props.colorclass1}>the best painting </span> <span className={this.props.colorclass2}>companies</span>  in Massachusetts
                                     </h2>
                                     <p>With over eight years of industry experience, we have built a solid track record of customer satisfaction.</p>
                                     <p className="text-lowercase">We’ve served hundreds of clients in Massachusetts, USA, and we’ve earned their trust with our high-quality work.

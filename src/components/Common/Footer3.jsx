@@ -43,7 +43,7 @@ class Footer3 extends React.Component {
                                                     </div>
                                                     <div className="wt-post-info">
                                                         <div className="wt-post-header">
-                                                            <h6 className="post-title"><NavLink to={"/post-right-sidebar"}>+1 (781) 539-9700</NavLink></h6>
+                                                            <h6 className="post-title"><NavLink to={"#"}>+1 (781)5359525</NavLink></h6>
                                                         </div>
                                                         <div className="wt-post-meta">
                                                             
@@ -56,7 +56,7 @@ class Footer3 extends React.Component {
                                                     </div>
                                                     <div className="wt-post-info">
                                                         <div className="wt-post-header">
-                                                        <h6 className="post-title"><NavLink to={"/post-right-sidebar"}>Info@wjpaintingnow.com </NavLink></h6>
+                                                        <h6 className="post-title"><NavLink to={"#"}>Info@wjpaintingnow.com </NavLink></h6>
                                                         </div>
                                                         <div className="wt-post-meta">
                                                             
