@@ -45,13 +45,13 @@ const projects = [
         image: require('./../../images/gallery/portrait/pic7.jpg'),
         title: 'Modern Minimalism',
         description: 'Use this label for a contemporary and minimalist approach to your house painting, emphasizing clean lines and simple colors.',
-        filter: 'exterior-col'
+        filter: 'interior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic6.jpg'),
         title: 'Urban Chic',
         description: 'Ideal for a project that brings a touch of city style and sophistication to your house with trendy and chic color choices.',
-        filter: 'interior-col'
+        filter: 'exterior-col'
     },
     {
         image: require('./../../images/gallery/portrait/pic8.jpg'),

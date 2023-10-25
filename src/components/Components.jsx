@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './Pages/Home3';
 import AboutUs from './Pages/AboutUs';
-import PageDetails from './Pages/ProjectDetail';
 import Gallery from './Pages/Gallery';
 
 class Components extends React.Component {
@@ -14,7 +13,7 @@ class Components extends React.Component {
                         <Switch>
                             <Route path='/' exact component={Home} />
                             <Route path='/aboutUs' exact component={AboutUs} />
-                            <Route path='/project-detail' exact component={PageDetails} />
+                        
                             <Route path='/gallery' exact component={Gallery} />
                             <Route component={Error} />
                             
