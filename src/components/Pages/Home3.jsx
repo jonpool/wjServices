@@ -8,10 +8,21 @@ import WhoWeAre from './../Segments/WhoWeAre';
 import Statistics from './../Segments/Statistics';
 import Testimonials from './../Segments/Testimonials';
 import ClientsLogo from './../Segments/ClientsLogo2';
+import emailjs from '@emailjs/browser';
 
 class Home3 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          name: '',
+          email: '',
+          message: ''
+        }
+      }
     render() {
+        
         return (
+            
             <div>
                 <Header2 />
                 <Slider3 />
@@ -38,16 +49,16 @@ class Home3 extends React.Component {
                             <div className="section-content">
                                 {/* CONTACT FORM*/}
                                 <div className="wt-box">
-                                    <form className="contact-form cons-contact-form" method="post" id="contact-form">
+                                    <form className="contact-form cons-contact-form" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST" >
                                         <div className="contact-one p-a40 p-r150">
                                             <div className="form-group">
-                                                <input name="username" type="text" required className="form-control" placeholder="Name" />
+                                                <input name="name" type="text" required className="form-control" placeholder="Name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                                             </div>
                                             <div className="form-group">
-                                                <input name="email" type="email" className="form-control" required placeholder="Email" />
+                                                <input name="email" type="email" className="form-control" required placeholder="Email" value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
                                             </div>
                                             <div className="form-group">
-                                                <textarea name="message" rows={3} className="form-control " required placeholder="Message" defaultValue={""} />
+                                                <textarea name="message" rows={3} className="form-control " required placeholder="Message" defaultValue={""} value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                                             </div>
                                             <button name="submit" type="submit" value="Submit" className="site-button black radius-no text-uppercase">
                                                 <span className="font-12 letter-spacing-5">Submit</span>
@@ -92,6 +103,40 @@ class Home3 extends React.Component {
             </div>
         );
     };
+    onNameChange(event) {
+        this.setState({name: event.target.value})
+      }
+      onEmailChange(event) {
+        this.setState({email: event.target.value})
+      }
+      onMessageChange(event) {
+        this.setState({message: event.target.value})
+      }
+      handleSubmit(event) {
+        event.preventDefault();
+        var name = this.state.name;
+        var email = this.state.email;
+        var message = this.state.message;
+
+        (function(){
+            
+            emailjs.init("ErtuG5RWbvTQ40Que");
+            var templateParams = {
+                name:name,
+                email: email,
+                message:message
+            };
+             
+            emailjs.send('service_qe755bo', 'template_lm32i4z', templateParams)
+                .then(function(response) {
+                   alert('SUCCESS! We`ve Received your email');
+                }, function(error) {
+                   alert('FAILED...', error);
+                });
+         })();
+         
+        
+      }
 };
 
 
