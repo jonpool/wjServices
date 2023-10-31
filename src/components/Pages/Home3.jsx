@@ -19,7 +19,9 @@ class Home3 extends React.Component {
                 <LatestProjects />
                 <WhoWeAre />
                 <div className="page-content">
-                    
+
+                <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44229283.js"></script>
+
                         {/* SECTION CONTENTG START */}
                         <div className="section-full p-tb80 tm-shortcode-wrap">
                         {/* LOCATION BLOCK*/}
@@ -36,13 +38,13 @@ class Home3 extends React.Component {
                             <div className="section-content">
                                 {/* CONTACT FORM*/}
                                 <div className="wt-box">
-                                    <form className="contact-form cons-contact-form" method="post" action="form-handler.php">
+                                    <form className="contact-form cons-contact-form" method="post" id="contact-form">
                                         <div className="contact-one p-a40 p-r150">
                                             <div className="form-group">
                                                 <input name="username" type="text" required className="form-control" placeholder="Name" />
                                             </div>
                                             <div className="form-group">
-                                                <input name="email" type="text" className="form-control" required placeholder="Email" />
+                                                <input name="email" type="email" className="form-control" required placeholder="Email" />
                                             </div>
                                             <div className="form-group">
                                                 <textarea name="message" rows={3} className="form-control " required placeholder="Message" defaultValue={""} />
@@ -91,5 +93,42 @@ class Home3 extends React.Component {
         );
     };
 };
+var emailjs="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+
+
+(function email () {
+        emailjs.init("ErtuG5RWbvTQ40Que");
+      })();
+        // listen to the form submission
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+  
+            const serviceID = "service_6koh0hb";
+            const templateID = "template_e6w0wlw";
+            let nome = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let phoneNumber = document.getElementById("phoneNumber").value;
+						let message = document.getElementById("message").value;
+						console.log(message);
+            var contactParam ={
+                from_nome:nome,
+                from_email:email,
+                from_telefone:phoneNumber,
+								from_message:message
+            }
+            // send the email here
+            emailjs.send(serviceID, templateID, contactParam).then(
+              (response) => {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("SUCCESSO - Seu email foi registrado!");
+              },
+              (error) => {
+                console.log("FAILED...", error);
+                alert("FAILED...", error);
+              }
+            );
+          });
 
 export default Home3;
