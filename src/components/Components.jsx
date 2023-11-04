@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home3';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
+import ContactUs from './Pages/ContactUs';
 
 class Components extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class Components extends React.Component {
                         <Switch>
                             <Route path='/' exact component={Home} />
                             <Route path='/aboutUs' exact component={AboutUs} />
-                        
+                            <Route path='/contactUs' exact component={ContactUs} />
                             <Route path='/gallery' exact component={Gallery} />
                             <Route component={Error} />
                             

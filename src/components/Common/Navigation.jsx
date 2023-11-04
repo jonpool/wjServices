@@ -72,7 +72,7 @@ class Navigation extends React.Component {
                             </ul>*/}
                         </li>
                         <li className="submenu-direction">
-                            <NavLink to={"#"}>Contact</NavLink>
+                            <NavLink to={"/ContactUs"}>Contact</NavLink>
                             {/*<ul className="sub-menu">
                                 <li><NavLink to={"/accordian"}>All Elements</NavLink></li>
                             </ul>*/}

@@ -22,9 +22,7 @@ class Header2 extends React.Component {
     componentDidMount() {
 
         const handleScroll = () => {
-            const offset = window.scrollY;
-
-            const stickyheader = document.querySelector('.sticky-header ');
+            
 
            /* if (offset >= 100) {
                 stickyheader.classList.add('is-fixed');
