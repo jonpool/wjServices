@@ -3,7 +3,6 @@ import Header2 from '../Common/Header';
 import Footer from '../Common/Footer';
 import Banner from './../Segments/Banner';
 import About2 from './../Segments/About2';
-import TeamMembers2 from './../Segments/TeamMembers2';
 import Services from './../Segments/Services';
 import Story from './../Segments/Story';
 
@@ -14,12 +13,11 @@ class AboutUs extends React.Component {
         return (
             <>
                 <Header2 />
+                <Banner title="About US" pagename="About Us" bgimage={bnrimg.default}/>
                 <div className="page-content">
-                    <Banner title="Fusing logic with imagination and truth with discovery." pagename="About Us" bgimage={bnrimg.default}/>
-                    <About2 />
-                    <TeamMembers2 />
-                    <Services />
-                    <Story />
+                <About2 />
+                <Services />
+                <Story />
                 </div>
 
                 <Footer />

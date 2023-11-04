@@ -1,47 +1,47 @@
 import React from 'react';
 
 const images = [
-    require('./../../images/gallery/portrait/pic1.jpg'),
+    require('./../../images/gallery/portrait/pic6.jpg'),
     require('./../../images/gallery/portrait/pic2.jpg'),
     require('./../../images/gallery/portrait/pic3.jpg'),
-    require('./../../images/gallery/portrait/pic4.jpg'),
+    require('./../../images/gallery/portrait/pic7.jpg'),
     require('./../../images/gallery/portrait/pic5.jpg'),
-    require('./../../images/gallery/portrait/pic6.jpg')
+    require('./../../images/gallery/portrait/pic1.jpg')
 ]
 
 const servicesleft = [
     {
         counter: 0,
-        title: 'Master Plans',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: 'Exterior Painting',
+        description: 'Enhance your property s curb appeal with our expert exterior painting service. Our skilled team will breathe new life into your home .',
     },
     {
         counter: 1,
-        title: 'Architecture',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: 'Commercial Painting',
+        description: 'Your business image is crucial, and our commercial painting service is designed to make a lasting impression.',
     },
     {
         counter: 2,
-        title: 'Landscaping',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: ' Cabinet Painting',
+        description: 'Give your kitchen or bathroom a fresh and cost-effective makeover with our cabinet painting service.  ',
     }
 ]
 
 const servicesright = [
     {
         counter: 3,
-        title: 'Interior',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: 'Interior Painting',
+        description: 'Transform the interior of your space into a masterpiece with our interior painting service.',
     },
     {
         counter: 4,
-        title: 'Construction',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: 'Bath Remodeling',
+        description: 'Upgrade your bathroom into a luxurious oasis with our bath remodeling service. We provide comprehensive bathroom renovation solutions.',
     },
     {
         counter: 5,
-        title: 'Urban Designs',
-        description: 'Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend.',
+        title: 'Light Carpentry',
+        description: 'In addition to our painting services, we offer light carpentry to address any structural issues or enhancements needed . ',
     }
 ]
 

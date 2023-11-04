@@ -49,11 +49,25 @@ class About2 extends React.Component {
                                     <div className="col-lg-6 col-md-6 ">
                                         <div className="m-about-containt text-uppercase text-black p-t30">
                                             <span className="font-30 font-weight-300">About Us</span>
-                                            <h2 className="font-40">Our mission is the best Development &amp; interior design.</h2>
-                                            <p><b>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general</b></p>
-                                            <p className="text-lowercase">typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces and layouts, different general the content of dummy text is nonsensical. typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces and layouts, different general the content
+                                            <h2 className="font-40">Welcome to WJ Painting</h2>
+                                            <p><b>Your trusted painting partner serving Malden, MA, and the entire state of Massachusetts.</b></p>
+                                            <p>With a rich legacy spanning over 8 years, we are a family-owned 
+                                            and operated business that takes pride in transforming spaces into vibrant works of art. Our 
+                                            professional painting services cater to homeowners, businesses, and institutions, enhancing the 
+                                            beauty and functionality of every structure we touch.
                                             </p>
-                                            <NavLink to={"/project-detail"} className="site-button black radius-no text-uppercase"><span className="font-12 letter-spacing-5"> Read More </span></NavLink>
+                                            <h2><b>Why Choose Us?</b></h2>
+                                            <p>At [Your Painting Company Name], we are committed to providing top-tier painting services with a focus on quality, reliability, and customer satisfaction. When you choose us, you choose:</p>
+                                            <p><b>Professional Excellence:</b> Our skilled and experienced team of painters is dedicated to delivering the finest craftsmanship in every project.</p>
+                                            <p><b>Tailored Solutions:</b> We understand that every project is unique, and we work closely with our clients to develop custom painting solutions that meet their specific needs.</p>
+                                            <p><b>Premium Materials:</b> We use high-quality, eco-friendly paints and materials to ensure your project stands the test of time and is safe for your environment.</p>
+                                            <p><b>Timely Delivery:</b> We believe in delivering on time and on budget, ensuring a seamless painting experience without any hidden surprises.</p>
+                                            <p><b>Local Commitment:</b> Based in Malden, we are deeply rooted in the Massachusetts community, serving our neighbors with dedication and care.</p>
+                                            <h2><b>Our Painting Services</b></h2>
+                                            <p><b>Residential Painting:</b> From interior to exterior, we bring life to your home, creating the ambiance you've always dreamed of.</p>
+                                            <p><b>Commercial Painting:</b> We understand the importance of your business image. Our commercial painting services ensure your space reflects your brand's excellence.</p>
+                                            <p><b>Institutional Painting:</b> Educational institutions, healthcare facilities, and government buildings trust us to enhance their surroundings with our professional painting services.</p>
+                                            <NavLink to={"/contactUs"} className="site-button black radius-no text-uppercase"><span className="font-12 letter-spacing-5"> Contact Us </span></NavLink>
                                         </div>
                                     </div>
                                 </div>

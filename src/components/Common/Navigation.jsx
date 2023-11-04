@@ -35,7 +35,7 @@ class Navigation extends React.Component {
                             </ul>
                         </li>
                         <li>
-                            <NavLink to={"#"}>About</NavLink>
+                            <NavLink to={"/aboutUs"}>About</NavLink>
                              {/* <ul className="sub-menu v-sub-menu">
                                 <li>
                                     <NavLink to={"/aboutus"}>About us</NavLink>
@@ -63,7 +63,7 @@ class Navigation extends React.Component {
                             </ul>*/}
                         </li>
                         <li>
-                            <NavLink to={"#"}>Post detail</NavLink>
+                            <NavLink to={"/gallery"}>Gallery</NavLink>
                             {/*<ul className="sub-menu v-sub-menu">
                                 <li><NavLink to={"/post-image"}>Image</NavLink></li>
                                 <li><NavLink to={"/post-gallery"}>Gallery</NavLink></li>
