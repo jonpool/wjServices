@@ -99,9 +99,9 @@ class Footer3 extends React.Component {
                                 </div>
                                 <div className="wt-footer-bot-right">
                                     <ul className="copyrights-nav pull-right">
-                                        <li><NavLink to={"/aboutus"}>Terms  &amp; Condition</NavLink></li>
-                                        <li><NavLink to={"/aboutus"}>Privacy Policy</NavLink></li>
-                                        <li><NavLink to={"/contactus"}>Contact Us</NavLink></li>
+                                        <li><NavLink to={"#"}>Terms  &amp; Condition</NavLink></li>
+                                        <li><NavLink to={"#"}>Privacy Policy</NavLink></li>
+                                        <li><NavLink to={"#"}>Contact Us</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
