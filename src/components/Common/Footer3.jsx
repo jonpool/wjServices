@@ -72,12 +72,12 @@ class Footer3 extends React.Component {
                                     <div className="widget widget_services inline-links">
                                         <h4 className="widget-title">Useful links</h4>
                                         <ul>
-                                            <li><NavLink to={"#"}>About</NavLink></li>
-                                            <li><NavLink to={"#"}>Gallery</NavLink></li>
+                                            <li><NavLink to={"/aboutUs"}>About</NavLink></li>
+                                            <li><NavLink to={"/gallery"}>Gallery</NavLink></li>
                                             <li><NavLink to={"#"}>News</NavLink></li>
                                             <li><NavLink to={"#"}>Work</NavLink></li>
                                             <li><NavLink to={"#"}>Project</NavLink></li>
-                                            <li><NavLink to={"#"}>Contact us</NavLink></li>
+                                            <li><NavLink to={"/contactUs"}>Contact us</NavLink></li>
                                             <li><NavLink to={"#"}>Site Map</NavLink></li>
                                             <li><NavLink to={"#"}>Career</NavLink></li>
                                             <li><NavLink to={"#"}>Help </NavLink></li>

@@ -2,11 +2,14 @@ import React from 'react';
 import GoogleMaps from "simple-react-google-maps"
 import Header2 from '../Common/Header';
 import Footer from '../Common/Footer3';
-
+import Banner from './../Segments/Banner';
 import emailjs from '@emailjs/browser';
 
+var bnrimg = require('./../../images/banner/3.jpg');
+const myComponentStyle = {
 
-
+    paddingTop:'-200x', 
+ }
 class ContactUs extends React.Component
 
  {
@@ -18,23 +21,25 @@ class ContactUs extends React.Component
           message: ''
         }
       }
+      
     render() {
         return (
             <>
                 <Header2 />
-                <div className="page-content">
+                <Banner title="Gallery" pagename="Gallery" bgimage={bnrimg.default}/>
+                <div>
                 
                     {/* SECTION CONTENTG START */}
                     <div className="section-full p-tb80 tm-shortcode-wrap">
                         {/* LOCATION BLOCK*/}
-                        <div className="container">
+                        <div >
                             
                             {/* GOOGLE MAP & CONTACT FORM */}
                             <div className="section-content">
                                 {/* CONTACT FORM*/}
-                                <div className="page-content">
+                 <div className="page-content">
 
-                <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44229283.js"></script>
+                        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44229283.js"></script>
 
                         {/* SECTION CONTENTG START */}
                         <div className="section-full p-tb80 tm-shortcode-wrap">
