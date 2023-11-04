@@ -57,7 +57,7 @@ class About2 extends React.Component {
                                             beauty and functionality of every structure we touch.
                                             </p>
                                             <h2><b>Why Choose Us?</b></h2>
-                                            <p>At [Your Painting Company Name], we are committed to providing top-tier painting services with a focus on quality, reliability, and customer satisfaction. When you choose us, you choose:</p>
+                                            <p>At WJService, we are committed to providing top-tier painting services with a focus on quality, reliability, and customer satisfaction. When you choose us, you choose:</p>
                                             <p><b>Professional Excellence:</b> Our skilled and experienced team of painters is dedicated to delivering the finest craftsmanship in every project.</p>
                                             <p><b>Tailored Solutions:</b> We understand that every project is unique, and we work closely with our clients to develop custom painting solutions that meet their specific needs.</p>
                                             <p><b>Premium Materials:</b> We use high-quality, eco-friendly paints and materials to ensure your project stands the test of time and is safe for your environment.</p>
