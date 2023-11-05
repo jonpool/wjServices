@@ -26,7 +26,7 @@ class ContactUs extends React.Component
         return (
             <>
                 <Header2 />
-                <Banner title="Gallery" pagename="Gallery" bgimage={bnrimg.default}/>
+                <Banner title="ContactUs" pagename="ContactUs" bgimage={bnrimg.default}/>
                 <div>
                 
                     {/* SECTION CONTENTG START */}
