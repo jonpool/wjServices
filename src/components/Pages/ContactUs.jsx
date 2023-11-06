@@ -4,7 +4,7 @@ import Header2 from '../Common/Header';
 import Footer from '../Common/Footer3';
 import Banner from './../Segments/Banner';
 import emailjs from '@emailjs/browser';
-import { useEffect, useLocation } from 'react';
+import { useEffect } from 'react';
 var bnrimg = require('./../../images/banner/3.jpg');
 const ScrollToTop = (props) => {
     
