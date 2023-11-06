@@ -7,44 +7,29 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const projects = [
   {
     image: require('./../../images/gallery/pic1.jpg'),
-    title: 'Triangle Concrete House',
-    description: 'Adipisicing elit. Accusantium vitae, consequ untur minima tempora cupiditate ratione est ad molestias deserunt in ipsam ea quasi.',
+    title: 'Exterior Painting',
+    description: 'Exterior painting enhances the building appearance, protects it from the elements, and prolongs its life. It is essential for curb appeal and weather resistance.',
     filter: 'cat-1',
     date: '05 Jan 2022',
     author: 'Admin',
   },
   {
     image: require('./../../images/gallery/pic2.jpg'),
-    title: 'Triangle Concrete House',
-    description: 'Adipisicing elit. Accusantium vitae, consequ untur minima tempora cupiditate ratione est ad molestias deserunt in ipsam ea quasi.',
+    title: 'Trims and Doors',
+    description: 'Trims and door painting focuses on refining the look of architectural features like moldings, window frames, and doors, creating a polished and stylish aesthetic',
     filter: 'cat-2',
-    date: '05 Jan 2022',
-    author: 'Admin',
+    date: '',
+    author: '',
   },
   {
     image: require('./../../images/gallery/pic3.jpg'),
-    title: 'Triangle Concrete House',
-    description: 'Adipisicing elit. Accusantium vitae, consequ untur minima tempora cupiditate ratione est ad molestias deserunt in ipsam ea quasi.',
+    title: 'Cabinets',
+    description: 'Cabinet painting is a cost-effective way to update kitchen or bathroom cabinets by applying a new finish, providing a fresh and modern appearance.',
     filter: 'cat-3',
     date: '05 Jan 2022',
     author: 'Admin',
-  },
-  {
-    image: require('./../../images/gallery/pic4.jpg'),
-    title: 'Triangle Concrete House',
-    description: 'Adipisicing elit. Accusantium vitae, consequ untur minima tempora cupiditate ratione est ad molestias deserunt in ipsam ea quasi.',
-    filter: 'cat-4',
-    date: '05 Jan 2022',
-    author: 'Admin',
-  },
-  {
-    image: require('./../../images/gallery/pic5.jpg'),
-    title: 'Triangle Concrete House',
-    description: 'Adipisicing elit. Accusantium vitae, consequ untur minima tempora cupiditate ratione est ad molestias deserunt in ipsam ea quasi.',
-    filter: 'cat-5',
-    date: '05 Jan 2022',
-    author: 'Admin',
   }
+  
 ]
 
 class RelatedProjects extends React.Component {
@@ -95,12 +80,7 @@ class RelatedProjects extends React.Component {
                       <div className="wt-post-title ">
                         <h2 className="post-title"><NavLink to={"/project-detail"} className="text-black font-16 letter-spacing-2 font-weight-600">{item.title}</NavLink></h2>
                       </div>
-                      <div className="wt-post-meta ">
-                        <ul>
-                          <li className="post-date"><strong> {item.date}</strong> </li>
-                          <li className="post-author"><NavLink to={"/project-detail"}>By <span>{item.author}</span></NavLink> </li>
-                        </ul>
-                      </div>
+                      
                       <div className="wt-post-text">
                         <p>{item.description}</p>
                       </div>

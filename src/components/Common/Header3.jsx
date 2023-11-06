@@ -90,16 +90,16 @@ class Header3 extends React.Component {
                                 <div className="extra-nav">
                                     <div className="extra-cell">
                                         <div className="dropdown share-icon-btn">
-                                            <a href="#" className="site-search-btn dropdown-toggle" data-toggle="dropdown"><i className="fa fa-share-alt" /></a>
+                                            <a href="/" className="site-search-btn dropdown-toggle" data-toggle="dropdown"><i className="fa fa-share-alt" /></a>
                                             <div className="dropdown-menu bg-white">
                                                 <div className="top-bar">
                                                     <ul className="social-bx list-inline">
-                                                        <li><a target="_blank" href="https://www.facebook.com" className="fa fa-facebook" /></li>
-                                                        <li><a target="_blank" href="https://twitter.com" className="fa fa-twitter" /></li>
-                                                        <li><a target="_blank" href="https://in.linkedin.com" className="fa fa-linkedin" /></li>
-                                                        <li><a target="_blank" href="https://rss.com" className="fa fa-rss" /></li>
-                                                        <li><a target="_blank" href="https://www.youtube.com/" className="fa fa-youtube" /></li>
-                                                        <li><a target="_blank" href="ttps://www.instagram.com/" className="fa fa-instagram" /></li>
+                                                        <li><a  href="https://www.facebook.com" className="fa fa-facebook"> </a></li>
+                                                        <li><a  href="https://twitter.com" className="fa fa-twitter" > </a></li>
+                                                        <li><a  href="https://in.linkedin.com" className="fa fa-linkedin" > </a></li>
+                                                        <li><a  href="https://rss.com" className="fa fa-rss" > </a></li>
+                                                        <li><a  href="https://www.youtube.com/" className="fa fa-youtube" > </a></li>
+                                                        <li><a  href="https://www.instagram.com/" className="fa fa-instagram" > </a></li>
                                                     </ul>
                                                 </div>
                                             </div>

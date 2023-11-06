@@ -4,12 +4,16 @@ import Header2 from '../Common/Header';
 import Footer from '../Common/Footer3';
 import Banner from './../Segments/Banner';
 import emailjs from '@emailjs/browser';
-
+import { useEffect, useLocation } from 'react';
 var bnrimg = require('./../../images/banner/3.jpg');
-const myComponentStyle = {
-
-    paddingTop:'-200x', 
- }
+const ScrollToTop = (props) => {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+   }, []);
+  
+    return <>{props.children}</>
+  };
 class ContactUs extends React.Component
 
  {
@@ -25,6 +29,7 @@ class ContactUs extends React.Component
     render() {
         return (
             <>
+            <ScrollToTop />
                 <Header2 />
                 <Banner title="ContactUs" pagename="ContactUs" bgimage={bnrimg.default}/>
                 <div>

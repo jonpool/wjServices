@@ -7,22 +7,16 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const recentPost = [
     {
         image: require('./../../images/blog/recent-blog/pic1.jpg'),
-        title: 'Lorem ipsum dolor sit amet',
-        date: '25 Dec',
-        comment: '20 Comment'
+        title: 'Email',
+        date: 'INFO@WJPAINTINGNOW.COM'
+       
     },
     {
         image: require('./../../images/blog/recent-blog/pic2.jpg'),
-        title: 'Debitis nihil placeat, illum est',
-        date: '10 Jan',
-        comment: '15 Comment'
-    },
-    {
-        image: require('./../../images/blog/recent-blog/pic3.jpg'),
-        title: 'Elit Assumenda vel amet',
-        date: '25 Mar',
-        comment: '07 Comment'
+        title: 'Phone Number',
+        date: '(781) 539-9700'
     }
+    
 ]
 
 const logos = [
@@ -119,36 +113,45 @@ class BlogSidebar extends React.Component {
                 <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
                 <div className="col-md-4">
                     <aside className="side-bar">
-                        {/* SEARCH */}
-                        <div className="widget bg-white ">
-                            <h4 className="widget-title text-uppercase">Search</h4>
-                            <div className="search-bx">
-                                <form role="search" method="post" action="">
-                                    <div className="input-group">
-                                        <input name="news-letter" type="text" className="form-control" placeholder="Write your text" />
-                                        <span className="input-group-btn">
-                                            <button type="button" className="site-button"><i className="fa fa-search" /></button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="wt-divider bg-black"><i className="icon-dot c-square" /></div>
+                        
+
                         {/* ABOUT AUTHOR */}
                         <div className="widget bg-white">
-                            <h4 className="widget-title text-uppercase">About Author</h4>
+                            <h4 className="widget-title text-uppercase"> </h4>
                             <div className="widget-post m-b15">
-                                <img src={require("./../../images/gallery/portrait/pic6.jpg").default} alt="" className="img-responsive" />
+                                <img src={require("./../../images/gallery/portrait/pic8.jpg").default} alt="" className="img-responsive" />
                             </div>
-                            <p>We are the dolor sit ametLorem Ipsum Proin gravida nibh vel velit auctor aliquet.
-                                Aenean sollicitudin, Consequat ipsum, nec sagittis sem nibh id elit nibh vel velit auctor aliquet.
-                                sem nibh  Aenean sollicitudin,
+                            <p>WITH OVER EIGHT YEARS OF INDUSTRY EXPERIENCE, WE HAVE BUILT A SOLID TRACK RECORD OF CUSTOMER SATISFACTION.
+                                we’ve served hundreds of clients in massachusetts, usa, and we’ve earned their trust with our high-quality work.
                             </p>
                         </div>
                         <div className="wt-divider bg-black"><i className="icon-dot c-square" /></div>
+                        {/* NEWSLETTER */}
+                        <div className="widget widget_newsletter-2 bg-white  ">
+                            <h4 className="widget-title  text-uppercase">Contact Us</h4>
+                            <div className="newsletter-bx p-a30">
+                                <div className="newsletter-icon">
+                                    <i className="fa fa-envelope-o" />
+                                </div>
+                                <div className="newsletter-content">
+                                    <p>Enter your e-mail and phone number and we will be in touch!</p>
+                                </div>
+                                <div className="m-t20">
+                                    <form role="search" method="post" action="">
+                                        <div className="input-group">
+                                            <input name="news-letter" className="form-control" placeholder="ENTER YOUR EMAIL" type="text" />
+                                            <input name="news-letter" className="form-control" placeholder="ENTER YOUR PHONE" type="text" />
+                                            <span className="input-group-btn">
+                                                <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         {/* RECENT POSTS */}
                         <div className="widget bg-white  recent-posts-entry">
-                            <h4 className="widget-title  text-uppercase">Recent Posts</h4>
+                            <h4 className="widget-title  text-uppercase"> </h4>
                             <div className="section-content">
                                 <div className="widget-post-bx">
                                     {recentPost.map((item, index) => (
@@ -158,11 +161,11 @@ class BlogSidebar extends React.Component {
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-header">
-                                                    <h6 className="post-title"><NavLink to={"/post-image"}>{item.title}</NavLink></h6>
+                                                    <h6 className="post-title">{item.title}</h6>
                                                 </div>
                                                 <div className="wt-post-meta">
                                                     <ul>
-                                                        <li className="post-author">{item.date}</li>
+                                                        <li className="post-author"><NavLink to={"#"}>{item.date}</NavLink></li>
                                                         <li className="post-comment"> {item.comment}</li>
                                                     </ul>
                                                 </div>
@@ -174,6 +177,7 @@ class BlogSidebar extends React.Component {
                             </div>
                         </div>
                         <div className="wt-divider bg-black"><i className="icon-dot c-square" /></div>
+                        
                         {/* OUR CLIENT */}
                         <div className="widget">
                             <h4 className="widget-title  text-uppercase">Our Client</h4>
@@ -207,47 +211,8 @@ class BlogSidebar extends React.Component {
                             </ul>
                         </div>
                         <div className="wt-divider bg-black"><i className="icon-dot c-square" /></div>
-                        {/* NEWSLETTER */}
-                        <div className="widget widget_newsletter-2 bg-white  ">
-                            <h4 className="widget-title  text-uppercase">Newsletter</h4>
-                            <div className="newsletter-bx p-a30">
-                                <div className="newsletter-icon">
-                                    <i className="fa fa-envelope-o" />
-                                </div>
-                                <div className="newsletter-content">
-                                    <p>Enter your e-mail and subscribe to our newsletter. Sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
-                                </div>
-                                <div className="m-t20">
-                                    <form role="search" method="post" action="">
-                                        <div className="input-group">
-                                            <input name="news-letter" className="form-control" placeholder="ENTER YOUR EMAIL" type="text" />
-                                            <span className="input-group-btn">
-                                                <button type="button" className="site-button"><i className="fa fa-paper-plane-o" /></button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="wt-divider bg-black"><i className="icon-dot c-square" /></div>
-                        {/* TAGS */}
-                        <div className="widget bg-white  widget_tag_cloud">
-                            <h4 className="widget-title  text-uppercase">Tags</h4>
-                            <div className="tagcloud">
-                                <NavLink to={"#"}>Trouble </NavLink>
-                                <NavLink to={"#"}>Programmers</NavLink>
-                                <NavLink to={"#"}>Never</NavLink>
-                                <NavLink to={"#"}>Tell</NavLink>
-                                <NavLink to={"#"}>Doing</NavLink>
-                                <NavLink to={"#"}>Person</NavLink>
-                                <NavLink to={"#"}>Inventors Tag</NavLink>
-                                <NavLink to={"#"}>Between </NavLink>
-                                <NavLink to={"#"}>Abilities</NavLink>
-                                <NavLink to={"#"}>Fault </NavLink>
-                                <NavLink to={"#"}>Gets </NavLink>
-                                <NavLink to={"#"}>Macho</NavLink>
-                            </div>
-                        </div>
+                        
+                        
                     </aside>
                 </div>
             </>

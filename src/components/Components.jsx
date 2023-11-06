@@ -5,6 +5,7 @@ import Home from './Pages/Home3';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
 import ContactUs from './Pages/ContactUs';
+import InterioPainting from './Pages/InteriorPaiting';
 
 class Components extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class Components extends React.Component {
                             <Route path='/aboutUs' exact component={AboutUs} />
                             <Route path='/contactUs' exact component={ContactUs} />
                             <Route path='/gallery' exact component={Gallery} />
+                            <Route path='/interiorPainting' exact component={InterioPainting} />
                             <Route component={Error} />
                             
                             <Route component={Error} />
