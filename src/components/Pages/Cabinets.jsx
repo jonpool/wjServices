@@ -3,11 +3,11 @@ import Header2 from '../Common/Header';
 import Footer from '../Common/Footer3';
 import Banner from './../Segments/Banner';
 import RelatedProjects from './../Segments/RelatedProjects2';
-import BlogSidebar from './../Segments/BlogSidebar2';
+import BlogSidebar from './../Segments/BlogSidebar3';
 import { NavLink} from 'react-router-dom';
 
 
-var bnrimg = require('./../../images/banner/4.jpg');
+var bnrimg = require('./../../images/banner/1.jpg');
 
 
 class ExteriorPainting extends React.Component {
@@ -18,7 +18,7 @@ class ExteriorPainting extends React.Component {
             
                 <Header2 />
                 <div className="page-content ">
-                    <Banner title="Exterior Painting" pagename="Exterior Painting" bgimage={bnrimg.default}/>
+                    <Banner title="Cabinets" pagename="Cabinets" bgimage={bnrimg.default}/>
                     
                     {/* SECTION CONTENT START */}
                     <div className="section-full p-tb90 square_shape1 square_shape3 tm-blog-single-wrap">
@@ -30,20 +30,16 @@ class ExteriorPainting extends React.Component {
                                 {/* BLOG START */}
                                 <div className="blog-post date-style-1 blog-detail text-black">
                                     <div className="wt-post-title ">
-                                    <h1>Exterior Painting</h1>
-                                        <h2 className="post-title"><span className="text-black font-20 letter-spacing-1 font-weight-600">Elevate Your Home's Exterior with WJ Services - Your Premier Choice for Quality Painting </span></h2>
+                                    <h1>Cabinets</h1>
+                                        <h2 className="post-title"><span className="text-black font-20 letter-spacing-1 font-weight-600">Welcome to WJServices: Your Cabinet Painting Experts</span></h2>
                                     </div>
                                     <div className="wt-post-meta ">
-                                        <ul>
-                                            <li className="post-date"><strong>04 Jan</strong> <span> 2023</span> </li>
-                                            
-                                        </ul>
+                                       
                                     </div>
                                     <div className="wt-post-text">
                                     
-                                        <p>Are you in search of a reliable and skilled exterior painting service to enhance the curb appeal of your home? Look no further than 
-                                            WJ Services - your trusted partner in transforming exteriors into works of art. With a commitment to excellence and a team of experienced 
-                                            professionals, we take pride in delivering top-notch exterior painting solutions that stand the test of time.</p>
+                                        <p>Revitalize your living spaces with WJServices, your trusted partner for professional cabinet painting. 
+                                            With over 10 years of dedicated experience, we bring expertise, precision, and a commitment to excellence to every project.</p>
                                          <h4>Advantages of Choosing WJ Services for Your Exterior Painting Needs:</h4>   
                                          <ol>
                                             <li>
@@ -76,19 +72,11 @@ class ExteriorPainting extends React.Component {
                                              making professional painting services accessible to homeowners who seek premium results.</p>
                                             </li>
                                             </ol>
-                                        <blockquote>
-                                            <div className="row">
-                                                <div className="col-md-4 col-sm-6 tm-qt-img">
-                                                    <img src={require("./../../images/gallery/pic1.jpg").default} alt=""/>
-                                                </div>
-                                                <div className="col-md-8 col-sm-6">
-                                                At WJ Services, we are not just a painting company; we are your interior painting partners. We understand that painting 
-                                                is more than just a task; it's an art. We approach each project with a creative and artistic mindset, ensuring that your 
-                                                space is elevated to its fullest potential.
-                                                    <div className="p-t15"><p> – Wagner</p></div>
-                                                </div>
+                                            <div>
+                                                    <img src={require("./../../images/gallery/pic3.jpg").default} alt=""/>
+                                               
                                             </div>
-                                        </blockquote>
+                                        
                                         <h4>Your Satisfaction is Our Success</h4>
                                         <p>WJ Services is driven by a passion for painting and a commitment to customer satisfaction. We believe that our success is measured by
                                              the smiles on our clients' faces when they see their transformed spaces. We take immense pride in each project we complete, whether

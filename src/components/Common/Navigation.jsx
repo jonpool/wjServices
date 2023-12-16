@@ -50,6 +50,7 @@ class Navigation extends React.Component {
                             <ul className="sub-menu v-sub-menu">
                                 <li><NavLink to={"/interiorPainting"}>Interior Painting</NavLink></li>
                                 <li><NavLink to={"/exteriorPainting"}>Exterior Painting</NavLink></li>
+                                <li><NavLink to={"/cabinets"}>Cabinets</NavLink></li>
                                 {/*<li><NavLink to={"/news-masonary"}>Masonry</NavLink></li>*/}
                             </ul>
                         </li>
