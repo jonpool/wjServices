@@ -10,7 +10,9 @@ import Blog from './../Segments/Blog';
 import Statistics from './../Segments/Statistics';
 import Testimonials from './../Segments/Testimonials';
 import ClientsLogo from './../Segments/ClientsLogo';
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('G-4M18S05XNT');
 class Home extends React.Component {
     render() {
         return (
