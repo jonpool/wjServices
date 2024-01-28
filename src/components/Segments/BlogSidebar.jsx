@@ -180,7 +180,7 @@ class BlogSidebar extends React.Component {
                         
                         {/* OUR CLIENT */}
                         <div className="widget">
-                            <h4 className="widget-title  text-uppercase">Our Client</h4>
+                            <h4 className="widget-title  text-uppercase">Brands we work with</h4>
                             <OwlCarousel className="owl-carousel widget-client p-t10" {...options}>
                                 {logos.map((item, index) => (
                                     <div className="item" key={index}>

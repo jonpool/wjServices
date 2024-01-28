@@ -100,7 +100,7 @@ class WhoWeAre extends React.Component {
                             </div>
                             <div className="container">
                                 <div className="hilite-title p-lr20 m-tb20 text-left text-uppercase bdr-gray bdr-left">
-                                    <strong>300+ Projects</strong>
+                                    <strong>700+ Projects</strong>
                                     <span className="text-black">Completed</span>
                                 </div>
                             </div>

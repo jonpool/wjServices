@@ -50,7 +50,7 @@ class About extends React.Component {
                                     <h2 className="font-40">
                                     We are among <span className={this.props.colorclass1}>the best painting </span> <span className={this.props.colorclass2}>companies</span>  in Massachusetts
                                     </h2>
-                                    <p>With over eight years of industry experience, we have built a solid track record of customer satisfaction.</p>
+                                    <p>With over nine years of industry experience, we have built a solid track record of customer satisfaction.</p>
                                     <p className="text-lowercase">We’ve served hundreds of clients in Massachusetts, USA, and we’ve earned their trust with our high-quality work.
                                     </p>
                                     <NavLink to={"#"} className="btn-half site-button button-lg m-b15"><span>Read More</span><em /></NavLink>
@@ -72,7 +72,7 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="hilite-title p-lr20 m-tb20 text-right text-uppercase bdr-gray bdr-right">
-                                <strong>8 Year</strong>
+                                <strong>9 Year</strong>
                                 <span className="text-black">Experience Working</span>
                             </div>
                         </div>
