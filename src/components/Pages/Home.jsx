@@ -13,10 +13,20 @@ import ClientsLogo from './../Segments/ClientsLogo';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('G-4M18S05XNT');
+
 class Home extends React.Component {
     render() {
         return (
             <>
+                
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4M18S05XNT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4M18S05XNT');
+</script>
                 <Header />
                 <div className="page-content">
                     <Slider />
