@@ -52,7 +52,7 @@ class ContactUs extends React.Component
                         <div className="container">
                             {/* TITLE START */}
                             <div className="section-head text-left text-black">
-                                <h2 className="text-uppercase font-36">Contact Us </h2>
+                                <h2 className="text-uppercase font-36">Free Estimate </h2>
                                 <div className="wt-separator-outer">
                                     <div className="wt-separator bg-black" />
                                 </div>
