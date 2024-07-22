@@ -129,7 +129,7 @@ class Slider3 extends React.Component {
                     
                         style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, lineHeight: 60, fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: '#9a9898', cursor: 'pointer' }}>
                             
-                            <NavLink to={"#"} title="MAKE A CHOICE" rel="bookmark" style={{color: '#000'}}>MAKE A CHOICE</NavLink>
+                            <NavLink to={"/ContactUs"} title="MAKE A CHOICE" rel="bookmark" style={{color: '#000'}}>MAKE A CHOICE</NavLink>
                         </div>
                
                     <div className="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5" 
