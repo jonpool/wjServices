@@ -31,7 +31,7 @@ class ContactUs extends React.Component
             <>
             <ScrollToTop />
                 <Header2 />
-                <Banner title="ContactUs" pagename="ContactUs" bgimage={bnrimg.default}/>
+                <Banner title="Free estimate" pagename="Free estimate" bgimage={bnrimg.default}/>
                 <div>
                 
                     {/* SECTION CONTENTG START */}
