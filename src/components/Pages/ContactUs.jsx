@@ -68,6 +68,12 @@ class ContactUs extends React.Component
                                                 <input name="name" type="text" required className="form-control" placeholder="Name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                                             </div>
                                             <div className="form-group">
+                                                <input name="last_name" type="text" required className="form-control" placeholder="Last Name" value={this.state.last_name} onChange={this.onLastNameChange.bind(this)} />
+                                            </div>
+                                            <div className="form-group">
+                                                <input name="address" type="text" required className="form-control" placeholder="Address" value={this.state.address} onChange={this.onAddressChange.bind(this)} />
+                                            </div>
+                                            <div className="form-group">
                                                 <input name="email" type="email" className="form-control" required placeholder="Email" value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
                                             </div>
                                             <div className="form-group">
