@@ -68,7 +68,7 @@ class ContactUs extends React.Component
                                                 <input name="name" type="text" required className="form-control" placeholder="Name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                                             </div>
                                              <div className="form-group">
-                                                <input name="last_name" type="text" required className="form-control" placeholder="Last Name" value={this.state.last_name} onChange={this.onLastNameChange.bind(this)} />
+                                                <input name="last" type="text" required className="form-control" placeholder="Last Name" value={this.state.last} onChange={this.onLastChange.bind(this)} />
                                             </div>
                                             <div className="form-group">
                                                 <input name="address" type="text" required className="form-control" placeholder="Address" value={this.state.address} onChange={this.onAddressChange.bind(this)} />
@@ -141,7 +141,7 @@ class ContactUs extends React.Component
         this.setState({name: event.target.value})
       }
      onLastNameChange(event) {
-        this.setState({last_name: event.target.value})
+        this.setState({last: event.target.value})
       }
      onAddressChange(event) {
         this.setState({address: event.target.value})
@@ -155,7 +155,7 @@ class ContactUs extends React.Component
       handleSubmit(event) {
         event.preventDefault();
         var name = this.state.name;
-        var last_name = this.state.last_name;
+        var last = this.state.last;
         var address = this.state.address;
         var email = this.state.email;
         var message = this.state.message;
@@ -166,7 +166,7 @@ class ContactUs extends React.Component
             emailjs.init("ErtuG5RWbvTQ40Que");
             var templateParams = {
                 name:name,
-                last:last_name,
+                last:last,
                 address:address,
                 email: email,
                 message:message
