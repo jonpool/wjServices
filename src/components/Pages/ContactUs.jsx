@@ -67,6 +67,12 @@ class ContactUs extends React.Component
                                             <div className="form-group">
                                                 <input name="name" type="text" required className="form-control" placeholder="Name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                                             </div>
+                                             <div className="form-group">
+                                                <input name="last_name" type="text" required className="form-control" placeholder="Last Name" value={this.state.last_name} onChange={this.onLastNameChange.bind(this)} />
+                                            </div>
+                                            <div className="form-group">
+                                                <input name="address" type="text" required className="form-control" placeholder="Address" value={this.state.address} onChange={this.onAddressChange.bind(this)} />
+                                            </div>
                                             <div className="form-group">
                                                 <input name="email" type="email" className="form-control" required placeholder="Email" value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
                                             </div>
@@ -134,6 +140,12 @@ class ContactUs extends React.Component
     onNameChange(event) {
         this.setState({name: event.target.value})
       }
+     onLastNameChange(event) {
+        this.setState({last_name: event.target.value})
+      }
+     onAddressChange(event) {
+        this.setState({address: event.target.value})
+      }
       onEmailChange(event) {
         this.setState({email: event.target.value})
       }
@@ -143,14 +155,19 @@ class ContactUs extends React.Component
       handleSubmit(event) {
         event.preventDefault();
         var name = this.state.name;
+        var last_name = this.state.last_name;
+        var address = this.state.address;
         var email = this.state.email;
         var message = this.state.message;
+          
 
         (function(){
             
             emailjs.init("ErtuG5RWbvTQ40Que");
             var templateParams = {
                 name:name,
+                last:last_name,
+                address:address,
                 email: email,
                 message:message
             };
