@@ -43,7 +43,7 @@ class Footer3 extends React.Component {
                                                     </div>
                                                     <div className="wt-post-info">
                                                         <div className="wt-post-header">
-                                                            <h6 className="post-title"><NavLink to={"tel:7815399700"}>+1 (781) 539-9700</NavLink></h6>
+                                                            <h6 className="post-title"><NavLink to={"tel:7815359525"}>+1 (781)535-9525</NavLink></h6>
                                                         </div>
                                                         <div className="wt-post-meta">
                                                             
