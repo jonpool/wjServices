@@ -87,7 +87,7 @@ class ContactUs extends React.Component
                                                     <div className="icon-sm"><i className="iconmoon-smartphone-1" /></div>
                                                     <div className="icon-content text-white ">
                                                         <h5 className="m-t0 text-uppercase">Phone number</h5>
-                                                        <p>(781) 539 9700</p>
+                                                        <p>(781) 535-9525</p>
                                                     </div>
                                                 </div>
                                                 <div className="wt-icon-box-wraper left p-b30">
