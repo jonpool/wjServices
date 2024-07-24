@@ -129,7 +129,7 @@ class Slider3 extends React.Component {
                     
                         style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, lineHeight: 60, fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: '#9a9898', cursor: 'pointer' }}>
                             
-                            <NavLink to={"/ContactUs"} title="MAKE A CHOICE" rel="bookmark" style={{color: '#000'}}>MAKE A CHOICE</NavLink>
+                            <NavLink to={"/ContactUs"} title="FREE ESTIMATE" rel="bookmark" style={{color: '#000'}}>FREE ESTIMATE</NavLink>
                         </div>
                
                     <div className="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5" 
@@ -207,7 +207,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                        
                         style={{ zIndex: 18, whiteSpace: 'nowrap', fontSize: 15,lineHeight:60, fontWeight: 700, color: '#fff', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: '#fb0c1d', cursor: 'pointer' }}>
-                            <NavLink to={"/ContactUs"} title="MAKE A CHOICE" rel="bookmark">MAKE A CHOICE</NavLink>
+                            <NavLink to={"/ContactUs"} title="FREE ESTIMATE" rel="bookmark">FREE ESTIMATE</NavLink>
                         </div>
                                 </li>
                                 {/* SLIDE 1 */}
@@ -291,7 +291,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                     
                         style={{ zIndex: 12, whiteSpace: 'nowrap', fontSize: 15, lineHeight:60,  fontWeight: 700, color: '#fff', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: 'rgb(0,0,0)', cursor: 'pointer' }}>
-                            <NavLink to={"/ContactUs"} title="MAKE A CHOICE" rel="bookmark" style={{color: '#fff'}}>MAKE A CHOICE</NavLink>
+                            <NavLink to={"/ContactUs"} title="FREE ESTIMATE" rel="bookmark" style={{color: '#fff'}}>FREE ESTIMATE</NavLink>
                         </div>
                         
                    
@@ -367,7 +367,7 @@ class Slider3 extends React.Component {
                         data-paddingleft="[45,45,45,45]"
                        
                         style={{ zIndex: 18, whiteSpace: 'nowrap', fontSize: 15, lineHeight:60,  fontWeight: 700, color: '#000', letterSpacing: 5, fontFamily: 'Montserrat', backgroundColor: 'rgb(255,255,255)', cursor: 'pointer' }}>
-                            <NavLink to={"/ContactUs"} title="MAKE A CHOICE" rel="bookmark">MAKE A CHOICE</NavLink></div>
+                            <NavLink to={"/ContactUs"} title="FREE ESTIMATE" rel="bookmark">FREE ESTIMATE</NavLink></div>
                                 </li>
                             </ul>
                             <div className="tp-bannertimer tp-bottom" style={{ visibility: 'hidden !important' }} />
