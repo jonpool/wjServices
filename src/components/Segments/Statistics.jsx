@@ -50,7 +50,7 @@ class Statistics extends React.Component {
                                         <div className="col-md-4 col-sm-4 col-xs-4">
                                             <div className="wt-icon-box-wraper p-a10 text-white m-b30">
                                                 <div className="icon-content text-center">
-                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={550} duration={5} /></span></div>
+                                                    <div className="font-40 font-weight-600 m-b5"><span className="counter"><CountUp end={28} duration={5} /></span></div>
                                                     <div className="wt-separator-outer m-b20"><div className="wt-separator bg-white" /></div>
                                                     <span className="text-uppercase">Cities Served</span>
                                                 </div>
