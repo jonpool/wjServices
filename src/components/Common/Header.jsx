@@ -86,7 +86,7 @@ class Header extends React.Component {
                                             </ul>
                                             <ul className="list-unstyled list-inline e-p-bx pull-right">
                                                 <li><i className="fa fa-envelope" ></i><a href="mailto:INFO@WJPAINTINGNOW.COM" >INFO@WJPAINTINGNOW.COM</a></li>
-                                                <li><i className="fa fa-phone"></i><a href="tel:781-539-9700">(781) 539-9700</a> </li>
+                                                <li><i className="fa fa-phone"></i><a href="tel:7815359525">(781)535-9525</a> </li>
                                             </ul>
                                         </div>
                                     </div>
