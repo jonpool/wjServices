@@ -140,7 +140,7 @@ class ContactUs extends React.Component
     onNameChange(event) {
         this.setState({name: event.target.value})
       }
-     onLastNameChange(event) {
+     onLastChange(event) {
         this.setState({last: event.target.value})
       }
      onAddressChange(event) {
