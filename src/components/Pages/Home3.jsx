@@ -40,7 +40,7 @@ class Home3 extends React.Component {
                             {/* TITLE START */}
                             <div className="section-head text-left text-black">
                                 <h1 className="text-uppercase font-36">Are you looking for a Painting Service? </h1>
-                                <h2 className="text-uppercase font-36">Contact us today and get a quote on your project  </h2>
+                                <h4 className="text-uppercase font-36">Contact us today and get a quote on your project  </h4>
                                 <div className="wt-separator-outer">
                                     <div className="wt-separator bg-black" />
                                 </div>
