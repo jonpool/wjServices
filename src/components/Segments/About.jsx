@@ -53,8 +53,9 @@ class About extends React.Component {
                                     <p>With over nine years of industry experience, we have built a solid track record of customer satisfaction.</p>
                                     <p className="text-lowercase">We’ve served hundreds of clients in Massachusetts, USA, and we’ve earned their trust with our high-quality work.
                                     </p>
-                                    <NavLink to={"/aboutUs"} className="btn-half site-button button-lg m-b15"><span>Read More</span><em /></NavLink>
-                                    <NavLink to={"/contacttUs"} className="btn-half site-button button-lg m-b15"><span>FREE ESTIMATE</span><em /></NavLink>
+
+                                    <NavLink to={"/aboutUs"} className="btn-half site-button button-lg m-b15"><span>Read More</span><em /></NavLink>&nbsp;
+                                    <NavLink to={"/contactUs"} className="btn-half site-button button-lg m-b15"><span>FREE ESTIMATE</span><em /></NavLink>
                                 </div>
                                 <div className="col-md-7 col-sm-12">
                                     <div className="m-carousel-1 m-l100">
