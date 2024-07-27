@@ -39,7 +39,8 @@ class Home3 extends React.Component {
                         <div className="container">
                             {/* TITLE START */}
                             <div className="section-head text-left text-black">
-                                <h2 className="text-uppercase font-36">Contact Us </h2>
+                                <h1 className="text-uppercase font-36">Are you looking for a Painting Service? </h1>
+                                <h2 className="text-uppercase font-36">Contact us today and get a quote on your project  </h2>
                                 <div className="wt-separator-outer">
                                     <div className="wt-separator bg-black" />
                                 </div>
@@ -68,7 +69,7 @@ class Home3 extends React.Component {
                                                     <div className="icon-sm"><i className="iconmoon-smartphone-1" /></div>
                                                     <div className="icon-content text-white ">
                                                         <h5 className="m-t0 text-uppercase">Phone number</h5>
-                                                        <p>(781) 539 9700</p>
+                                                        <p>(781) 535-9525</p>
                                                     </div>
                                                 </div>
                                                 <div className="wt-icon-box-wraper left p-b30">
