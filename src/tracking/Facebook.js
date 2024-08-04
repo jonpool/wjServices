@@ -1,10 +1,9 @@
-
-// FacebookPixel.js
-
+/* eslint-disable no-undef */
 import React, { useEffect } from "react";
 
 const Facebook = () => {
   useEffect(() => {
+    // eslint-disable-next-line no-unused-expressions
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
       n = f.fbq = function () {
@@ -28,9 +27,9 @@ const Facebook = () => {
       "script",
       "https://connect.facebook.net/en_US/fbevents.js"
     );
+    // eslint-disable-next-line no-undef
     fbq('init', '717525426671831');
     fbq('track', 'PageView');
-
   }, []);
 
   return null;
