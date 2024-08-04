@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Facebook from "./tracking/Facebook";
+import Facebook from "../tracking/Facebook";
 import Home from './Pages/Home3';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
