@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import Facebook from "./tracking/Facebook";
 import Home from './Pages/Home3';
 import AboutUs from './Pages/AboutUs';
 import Gallery from './Pages/Gallery';
@@ -13,6 +13,7 @@ class Components extends React.Component {
     render() {
         return (
             <BrowserRouter basename="/">
+                <Facebook/>
                 <div className="page-wraper">
                         <Switch>
                             <Route path='/' exact component={Home} />
